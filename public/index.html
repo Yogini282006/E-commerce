@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <h1><strong>PRODUCTS</strong></h1>
+  
+  <header>
+  
+    <div class="container">
+    <nav>
+      <div class="logo">
+      <ul>
+        <li><button type="button" onclick="location.href='index.html'"><strong>HOME</strong></button></li>
+        <li><button type="button" onclick="location.href='services.html'"><strong>Services</strong></button></li>
+        <li><button type="button" onclick="location.href='about.html'"><strong>About</strong></button></li>
+        <li><button type="button" onclick="location.href='contact.html'"><strong>Contact</strong></button></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <style>
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    padding: 2px 80px;
+  }
+
+  nav ul li:nth-child(odd) {
+    background-color:  rgba(17, 17, 17, 0.6);
+  }
+
+  nav ul li:nth-child(even) {
+    background-color: rgba(17, 17, 17, 0.6);
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: rgba(54, 204, 250, 0.6);   
+  }
+</style>
+  <div class="products"></div>
+  <script src="script.js"></script>
+</body>
+</html>

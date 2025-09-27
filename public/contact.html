@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact">
+  <h1><strong>CONTACT US </strong></h1>
+  
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><button type="button" onclick="location.href='index.html'">Home</button></li>
+          <li><button type="button" onclick="location.href='services.html'">Services</button></li>
+          <li><button type="button" onclick="location.href='about.html'">About</button></li>
+          <li><button type="button" onclick="location.href='contact.html'">Contact</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-form">
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<style>
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      padding: 2px 80px;
+    }
+
+    nav ul li:nth-child(odd) {
+      background-color: #6092d3;
+    }
+
+    nav ul li:nth-child(even) {
+      background-color:  #6092d3;
+    }

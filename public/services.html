@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body.services {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      margin: 0;
+    }
+
+    nav ul li {
+      padding: 2px 80px;
+      background-color: rgba(17, 17, 17, 0.6);
+    }
+
+    nav ul li button {
+      background: none;
+      border: none;
+      color:  #300561;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 10px 20px;
+    }
+
+    nav ul li button:hover {
+      color: #fff;
+      background-color: rgba(96, 141, 155, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .services-section {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .service {
+      background-color: #f5f5f5;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .service h2 {
+      margin-top: 0;
+      color: #8e44ad;
+    }
+
+    .service p {
+      color: #300561;
+    }
+  </style>
+</head>
+<body class="services">
+  <h1>OUR SERVICES</h1>
+
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><button onclick="location.href='index.html'">Home</button></li>
+          <li><button onclick="location.href='services.html'">Services</button></li>
+          <li><button onclick="location.href='about.html'">About</button></li>
+          <li><button onclick="location.href='contact.html'">Contact</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="services-section">
+    <div class="service">
+      <h2>Web Design</h2>
+      <p>We create beautiful and responsive websites tailored to your brand and goals.</p>
+    </div>
+
+    <div class="service">
+      <h2>SEO Optimization</h2>
+      <p>Our SEO services improve your website's visibility on search engines, driving organic traffic.</p>
+    </div>
+
+    <div class="service">
+      <h2>Digital Marketing</h2>
+      <p>Reach your audience through effective social media, email campaigns, and paid advertising strategies.</p>
+    </div>
+
+    <div class="service">
+      <h2>Maintenance & Support</h2>
+      <p>We provide ongoing support and updates to keep your site running smoothly.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
